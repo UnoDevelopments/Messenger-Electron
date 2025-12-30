@@ -1,0 +1,21 @@
+{
+  "name": "messenger-desktop",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.unodevelopments.messenger",
+    "productName": "Messenger",
+    "win": {
+      "icon": "icon.ico",
+      "target": "nsis"
+    }
+  },
+  "devDependencies": {
+    "electron": "^39.2.7",
+    "electron-builder": "^26.0.12"
+  }
+}
